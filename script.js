@@ -13,8 +13,8 @@ var submitBtn = document.getElementById("submit").addEventListener("click", func
     var resultCount = intCount - 1;
 
     if (result == type) {
-        document.getElementById("unMatched").style.display = "none";
         document.getElementById("Matched").style.display = "block";
+        document.getElementById("unMatched").style.display = "none";
         
     }
     else if(result != type && resultCount >= 0) {
