@@ -17,8 +17,9 @@ var submitBtn = document.getElementById("submit").addEventListener("click", func
     }
     else if(result != type && resultCount >= 0) {
         document.getElementById("count").innerText = resultCount;
-        document.getElementById("unMatched").style.display = "block";
         document.getElementById("Matched").style.display = "none";
+        document.getElementById("unMatched").style.display = "block";
+        
     }
 
     if (resultCount < 0) {
